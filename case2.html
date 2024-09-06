@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="this is the description">
+    <meta name="keywords" content="java, html, css, js, go, react, angular">
+    <meta name="author" content="ijse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.jpeg"> <!-- Favicon -->
+    <link rel="stylesheet" href="assets/style/normalize.css" >
+
+    <title>Assignment 03: Case 02</title>
+
+    <style>
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            height: 70px;
+            box-shadow: rgba(8, 26, 47, 0.34) 0px 0px 0px 2px,
+            rgba(6, 24, 44, 0.6) 0px 4px 6px -1px,
+            rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        }
+
+        header img {
+            height: 150px;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+
+        main{
+            position: relative;
+        }
+        main>aside{
+            position: absolute;
+            top: 0%;
+            bottom: 0%;
+            width: 150px;
+        }
+        aside {
+            background: rebeccapurple;
+            color: white;
+            padding: 20px;
+        }
+
+        aside>nav>ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        aside>nav>ul>li {
+            margin-bottom: 10px;
+        }
+
+        aside>nav>ul>li>a {
+            color: white;
+            text-decoration: none;
+        }
+        main>section{
+            margin-left: 200px;
+        }
+        main>section>p{
+            margin: 0%;
+        }
+        main>section>div>div{
+            background-image: url("assets/images/monkey.gif");
+            margin-right: -6px;
+
+            width: calc(100% / 3);
+            height: 300px;
+            border: 1px solid black;
+            display: inline-block;
+            box-sizing: border-box;
+            background-size: cover;
+        }
+        footer{
+            background: dimgray;
+            height: 50px;
+            width: 100%;
+            position: relative;
+        }
+        footer>span{
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            bottom: 0%;
+            margin: auto;
+            color: #eeeeee;
+            width: fit-content;
+            height: fit-content;
+        }
+
+        nav>dl>dd{
+            font-size: 20px;
+            margin: 20px 0 5px 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="assets/images/logo.jpeg" alt="IJSE logo">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <section>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p>
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+
+            <br><br>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+
+            <br><br>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+
+            <br><br>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+
+            <br><br>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+
+            <br><br>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores beatae corporis dolore eos excepturi expedita fugiat minus mollitia nihil numquam, quae rem repellat rerum ut velit vero, voluptatem?
+
+            <br><br>
+        </p>
+    </section>
+</main>
+
+<footer>
+    <span>Developed by Dinuka</span>
+</footer>
+
+</body>
+</html>
